@@ -13,17 +13,6 @@ header {
     text-align: center;
 }
 
-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-paw-icon {
-    font-size: 100px;
-    margin-right: 70px;
-}
-
 h1 {
     font-size: 36px;
     color: #fff; /* White text for the title */
@@ -53,48 +42,6 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-
-a {
-    color: #00BFFF;
-    font-size: 20px;
-}
-
-.container {
-    text-align: center;
-}
-
-.myul {
-    display: inline-block;
-    text-align: left;
-}
-
-
-.links-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #eafcfc;
-}
-
-.links-nav li {
-    display: inline-block;
-}
-
-.links-nav li a {
-    display: inline-block;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
-    text-decorations: none;
-    transition: background-color 0.3s; /* Smooth transition for hover */
-}
-
-.links-nav li a:hover {
-    background-color: #00BFFF;
-}
-
 
 footer {
     background-color: #C0C0C0;
