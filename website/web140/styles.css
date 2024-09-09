@@ -1,1 +1,107 @@
-test
+body {
+    background-color: #C0C0C0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #00BFFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+paw-icon {
+    font-size: 100px;
+    margin-right: 70px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff; /* White text for the title */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for the dog bar */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 15;
+}
+
+.floating-box {
+    background-color: white; /* White background for the box */
+    border: 2px solid #007BFF; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for floating effect */
+    padding: 20px; /* Space inside the box */
+    max-width: 600px; /* Maximum width for the box */
+    text-align: center; /* Center-align text */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #00BFFF;
+    font-size: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.myul {
+    display: inline-block;
+    text-align: left;
+}
+
+
+.links-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eafcfc;
+}
+
+.links-nav li {
+    display: inline-block;
+}
+
+.links-nav li a {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    text-decorations: none;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.links-nav li a:hover {
+    background-color: #00BFFF;
+}
+
+
+footer {
+    background-color: #C0C0C0;
+    color: black;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
